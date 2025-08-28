@@ -36,4 +36,6 @@ function addGuest3() {
 function reset() {
     homeScore.textContent = 0
     guestScore.textContent = 0
+    countHome = 0
+    countGuest = 0
 }
