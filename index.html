@@ -3,26 +3,31 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
+    <script src="index.js"></script>
+    <div id="container">
+        <div id="scores">
             <div>
                 <h3>HOME</h3>
                 <h2 id="home-score">0</h2>
                     <div class="buttons">
-                        <button id="btn-home1" onclick="addHome1">+1</button>
-                        <button id="btn-home2" onclick="addHome2">+2</button>
-                        <button id="btn-home3" onclick="addHome3">+3</button>
+                        <button onclick="addHome1()">+1</button>
+                        <button onclick="addHome2()">+2</button>
+                        <button onclick="addHome3()">+3</button>
                     </div>
             </div>
             <div>
                 <h3>GUEST</h3>
                 <h2 id="guest-score">0</h2>
                     <div class="buttons">
-                        <button id="btn-guest1" onclick = "addGuest1">+1</button>
-                        <button id="btn-guest2" onclick = "addGuest2">+2</button>
-                        <button id="btn-guest3" onclick = "addGuest3">+3</button>
+                        <button onclick = "addGuest1()">+1</button>
+                        <button onclick = "addGuest2()">+2</button>
+                        <button onclick = "addGuest3()">+3</button>
                     </div>
+                </div>
+            </div>
+            <div id = "footer">
+                <button id="btn-reset" onclick="reset()">RESET</button>
             </div>
         </div>
-        <script src="index.js"></script>
     </body>
 </html>

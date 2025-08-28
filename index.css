@@ -8,19 +8,21 @@ body {
     background: #8DDCDC;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
+#container {
     box-sizing: border-box;
     margin: 10px auto 10px auto;
     background: #1B244A;
     color: white;
     width: 575px;
     height: 380px;
-    padding-top: 15px;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 10px;
+}
+
+#scores {
+    display: flex;
+    justify-content: space-around;    
 }
 
 h3 {
@@ -65,4 +67,22 @@ button {
     box-sizing: border-box;
     width: 155px;
     justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#btn-reset {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid black;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+
+#footer {
+    text-align: center;
 }

@@ -1,88 +1,39 @@
 let homeScore = document.getElementById("home-score")
 let guestScore = document.getElementById("guest-score")
-let count = 0
+let countHome = 0
+let countGuest = 0
 
 function addHome1() {
-    console.log("button pressed")
-    count += 1
-    homeScore.textContent = count
-    count = 0
+    countHome += 1
+    homeScore.textContent = countHome
 }
 
 function addHome2() {
-    count += 2
-    homeScore.textContent = count
-    count = 0
+    countHome += 2
+    homeScore.textContent = countHome
 }
 
 function addHome3() {
-    count += 3
-    homeScore.textContent = count
-    count = 0
+    countHome += 3
+    homeScore.textContent = countHome
 }
 
 function addGuest1() {
-    count += 1
-    guestScore.textContent = count
-    count = 0
+    countGuest += 1
+    guestScore.textContent = countGuest
 }
 
 function addGuest2() {
-    count += 2
-    guestScore.textContent = count
-    count = 0
+    countGuest += 2
+    guestScore.textContent = countGuest
 }
 
 function addGuest3() {
-    count += 3
-    guestScore.textContent = count
-    count = 0
+    countGuest += 3
+    guestScore.textContent = countGuest
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function addHome2() {
-    homeScore += 2 
+function reset() {
+    homeScore.textContent = 0
+    guestScore.textContent = 0
 }
-
-function addHome3() {
-    homeScore += 3    
-}
-
-function addGuest1() {
-    guestScore += 1    
-}
-
-function addGuest2() {
-    guestScore += 2    
-}
-
-function addGuest3() {
-    guestScore += 3    
-}
-
