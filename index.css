@@ -49,6 +49,8 @@ h2 {
 }
 
 button {
+    box-sizing: box-border;
+    padding-top: 4px;
     font-family: CursedTimer;
     align-items: center;
     margin: auto auto;
@@ -71,12 +73,14 @@ button {
 }
 
 #btn-reset {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: auto;
     margin-right: auto;
     background-color: lightgray;
     color: black;
     border: 1px solid black;
     font-size: 15px;
+    font-weight: bold;
     width: 100px;
     height: 40px;
     padding-top: 2px;
